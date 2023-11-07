@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-size: 100%;
+    outline: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 5px 5px 0px 5px;
+}
+header {
+    border: 1px solid darkgray;
+    line-height: 100px;
+    background-color:aquamarine;
+    padding: 10px 10px 0px 10px;
+
+}
+h1 {
+    text-align: center;
+    font-style: italic;/* cho dòng chữ in ngiêng*/
+    font-size: 40pt;
+    color: red;
+} 
+nav{
+    border: 1px solid darkgray;
+    height: 40px;
+    background-color: darkcyan;
+}
+.menu-ngang{
+    display: flex;
+    list-style-type: none;
+}
+#home{
+    background-color: orangered;
+}
+.menu-ngang li{
+    text-transform: uppercase;
+    width: 150px;
+    background-color:blue;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    font-weight: bold;
+    border-right: 2px solid white;
+    display: inline-table;
+    position: relative;
+}
+.menu-ngang li a{
+    color: aliceblue;
+}
+.sud-menu-doc{
+      list-style-type: none;
+      position: absolute;
+      display: none;
+      left: 0px;
+  }
+.sud-menu-doc li{
+      background-color:whitesmoke;
+      color: darkgray;
+      display: block;
+      width: 150px;
+      text-align: center;
+      border-bottom: 1px solid whitesmoke;
+}
+.menu-ngang .sud-menu-doc li:hover{
+      background-color:orange;
+      color: black;
+  }
+.menu-ngang li:hover{
+      background-color: red;
+  }
+.menu-ngang li:hover .sud-menu-doc{
+      display: block;}
+a:link{
+    color: darkgreen;
+  }

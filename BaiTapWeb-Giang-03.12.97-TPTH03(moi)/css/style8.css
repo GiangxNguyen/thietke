@@ -1,0 +1,170 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 100%;
+  outline: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent; 
+}
+body{
+  background-color:rgba(233, 183, 122, 0.275);
+  margin: 0px 50px 0px 50px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/* Header */
+header {
+  border: 1px solid darkgray;
+  line-height: 30px;
+  background-color:aquamarine;
+  padding: 10px 10px 0px 10px;
+  position: relative;
+}
+h1 {
+  font-style: italic;/* cho dòng chữ in ngiêng*/
+  font-size: 40pt;
+  color: blue;
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  transform: translate(-30%, -50%);
+} 
+header .logo {
+  display: flex;
+  font: 10px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  justify-content: center; /* căn chỉnh phần tử ở giữa theo chiều ngang*/
+  align-items: center;/* căn chỉnh phần tử ở giữa theo chiều dọc*/
+  background-color:rgb(255, 136, 0);
+  color: beige;
+  width: 110px;
+  height: 70px;
+  border-radius: 10px;/* bo tròn 4 góc của khung*/
+}
+.button{
+  display: flex;
+  flex-direction: row-reverse;/* đảo ngược thứ tự của thuộc tính flex*/
+  float: right;
+}
+.button #but{
+  background-color:rgb(0, 149, 255);
+  margin-left: 10px;
+  width: 80px;
+  height: 40px;
+  border-color:rgb(0, 149, 255);
+  border-radius: 10px;/* bo tròn 4 góc của khung*/
+}
+.button #but a{
+  margin-left: 7px;
+  color: white;
+}
+.link1 a{
+  clear: both;
+  font-size: 18px;
+  text-decoration: none;/* không gạch chân văn bản*/
+  color: red;
+}
+.link {
+  float: right;
+  display: flex;
+}
+.link a {
+  text-decoration: none;
+  color: red;
+  margin-left: 5px;
+}
+.button #but:hover{
+  background-color: rgb(255, 136, 0);
+}
+.link a:hover{
+color: blue;
+}
+/* Nav */
+nav{
+  border: 1px solid darkgray;
+  height: 40px;
+  background-color: darkcyan;
+}
+.menu-ngang{
+  display: flex;
+  list-style-type: none;
+}
+#home{
+  background-color: red;
+}
+.menu-ngang li{
+  text-transform: uppercase;
+  width: 150px;
+  background-color:blue;
+  line-height: 40px;
+  text-align: center;
+  padding: 0px 20px 0px 20px;
+  color: white;
+  font-weight: bold;
+  border-right: 2px solid white;
+  display: inline-table;
+  position: relative;
+}
+.menu-ngang li a{
+  color: aliceblue;
+}
+.sud-menu-doc{
+    list-style-type: none;
+    position: absolute;
+    display: none;
+    left: 0px;
+}
+.sud-menu-doc li{
+    background-color:whitesmoke;
+    color: darkgray;
+    display: block;
+    width: 150px;
+    text-align: center;
+    border-bottom: 1px solid whitesmoke;
+}
+.menu-ngang .sud-menu-doc li:hover{
+    background-color:orange;
+    color: black;
+}
+.menu-ngang li:hover{
+    background-color: chocolate;
+}
+.menu-ngang li:hover .sud-menu-doc{
+    display: block;}
+/* a:link{
+  color: darkgreen;
+} */
+/* section */
+img{
+  padding: 5px 5px 0px 5px;
+  width: 200px;
+  height: 90px;
+}
+section{
+  background-color: beige;
+  display: flex;
+  height: auto;
+}
+#Content{
+  flex-basis: 85%;
+  background-color: bisque;
+}
+article{
+  border: 1px solid antiquewhite;
+  padding: 15px;
+  margin: 5px;
+  color: mediumblue;
+}
+aside{
+  float: right;
+  flex-basis: 15%;
+  background-color: coral;
+}
+footer{
+  background-color: brown;
+  line-height: 80px;
+  text-align: center;
+  color:white;
+}

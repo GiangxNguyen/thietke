@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 10px 0px 30px;
+}
+.post-home{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 10px 0px 10px;
+    width: 620px;
+    border: 1px solid black;
+}
+.post-home-1 {
+    background-color: blanchedalmond;
+    width: 600px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow: hidden;
+}
+.tieude {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content {
+    float: left;
+    margin-left: 10px;
+    width: 380px;
+}
+.content a{
+    color: red;
+}
+
+.post-img {
+    float: left;
+    margin-right: 10px;
+}
+.post-img img{
+    width: 200px;
+    height: 120px;
+}
+.content a{
+    text-decoration: none;
+}

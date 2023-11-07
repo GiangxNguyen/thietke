@@ -1,0 +1,41 @@
+ 
+h1{
+    padding: 10px;
+    background-color: aliceblue;
+    text-align: center;
+    color: red;}
+body{
+    background-color: antiquewhite;
+    margin: 50px 50px 0px 50px;
+    font-family: 'Times New Roman', Times, serif;}
+.file {
+    display:inline-block;}
+.file1{
+    margin-left: 50px;
+    list-style-image: url(../file-anh/anh1.jpg);}
+.file2{
+    margin-left: 50px; 
+    list-style-image: url(../file-anh/anh2.jpg);}
+.file1 li, .file2 li{
+    transition: color 0.3s;background-color: 0.3s;
+    width: 400px;
+    text-decoration: none; /* Không có đường gạch chân */
+    color: black;   /* Màu chữ đen */
+    background-color: white; /* Màu nền ban đầu là màu trắng */
+    font-size: 15pt;
+    border: 1px solid black;
+    padding: 10px; }
+table tr td ul li {
+    text-align: left;
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 10px 100px 10px 10px;}
+table tr td ul li a { 
+    color: black; /* Màu chữ đen */
+    text-decoration: none; /* Không có đường gạch chân */}
+table tr td ul li:hover{ 
+    background-color: yellowgreen; /* Màu nền là màu vàng xanh khi rê chuột vào */
+    color: white;}                 /* Màu chữ là màu trắng khi rê chuột vào */
+a:hover{ 
+    background-color: yellowgreen; /* Màu nền là màu vàng xanh khi rê chuột vào */
+    color: white;}                 /* Màu chữ là màu trắng khi rê chuột vào */

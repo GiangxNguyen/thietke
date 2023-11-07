@@ -1,0 +1,15 @@
+body {
+    background-color:powderblue;}
+h2  { 
+    background:#FF9966;   
+    font-family:"Courier New", Courier, monospace;                         
+    font-size:16px;  
+    border-bottom:solid;  
+    width:500px;}
+table, tr, td, th{ 
+    border-collapse:collapse;  /* đường viền kết hợp,không có khoảng trống giữa các đường viền*/
+    border-color:#CC0000;  /* màu đường viền*/
+    border:1px solid  #990000;  }   
+th  {     
+    background:#FF6600;  
+    color:#FFFFFF;  }  

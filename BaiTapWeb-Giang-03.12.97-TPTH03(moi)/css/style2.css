@@ -1,0 +1,19 @@
+body {
+    margin: 50px 50px 0px 50px;
+    background-color:powderblue;}
+
+table, tr, td, th  { 
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse:separate; /* đường viền mặc định,có khoảng trống giữa các đường viền*/
+    border:1px inset #3300FF;
+    width:450px;  
+    font-size:12px; }  
+th { 
+    background:#660066;
+    color:#FFFFFF;height:50px;
+    font-size:15px;}  
+.canhgiua { 
+    text-align:center;  
+    background:#660066;  
+    color:#FFFFFF;  
+    width:10%;}  

@@ -1,0 +1,23 @@
+body {
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 50px 50px 0px 50px;}
+
+h1{
+    text-shadow:darkgray 2px 3px;}
+  
+table {
+    border-collapse: collapse;
+    width: 100%;}
+th, td {
+    background-color: white;
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;}
+
+th{background-color: crimson;}
+
+table td:hover{
+    background-color: yellowgreen;
+    color: white;}
+
