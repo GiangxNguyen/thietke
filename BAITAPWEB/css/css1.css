@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+
+}
+#Main { 
+    border: 1px solid black;
+    width: 80%;
+    margin: 0px auto;
+}
+#Logo{ 
+    width: 55px;
+    height: 55px;
+    background-color: crimson;
+    position:absolute;
+    margin: 5px;
+}
+#head {
+    text-align: center;
+    color: aquamarine;
+    min-height: 70px;
+    background-color: blueviolet;
+    position: relative;
+}
+#Nav {
+    color: brown;
+    height: 50px;
+    background-color:cyan
+}
+#Body {
+    display: flex;
+    color: burlywood;
+    min-height: 350px;
+    background-color: cornflowerblue;
+}
+#left-sidebar{
+    flex-basis: 25%;
+    background-color: darkgoldenrod;}
+#content{
+    background-color: yellow;
+    flex-basis: 50%;}
+#right-sidebar{
+    background-color: darksalmon;
+    flex-basis: 25%;}
+#tfoot{
+    color: chartreuse;
+    background-color: darksalmon;
+    min-height: 50px;
+}
+.menu-ngang li:hover{
+    color: black;
+    background-color: crimson;}
+/* .menu-ngang{
+    float: left;
+} */
+.menu-ngang li{
+    width: 90px;
+    margin: 10px;
+    display: inline-table;
+    background-color: gray;}
+a:link{color: beige;}
+
+#home{background-color: navy;}
